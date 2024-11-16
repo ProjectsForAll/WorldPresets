@@ -1,0 +1,56 @@
+# Menu settings.
+menu:
+  title: "Server Rules" # Title of the menu.
+  size: 27 # Number of slots in the menu (9, 18, 27, 36, 45, or 54 ONLY).
+
+# Items in the menu.
+items:
+  chat-rules:
+    material: KNOWLEDGE_BOOK # Material of the item.
+    slot: 11 # Slot number -1 as the first slot is always 0 (0-53).
+    glowing: true # Whether the item should be glowing.
+    title: "&#ff0000&l&nCHAT RULES" # The display name of the item.
+    lore:
+      - "&7Applies to all messages on this server."
+      - "&r" # Blank line
+      - "&#ff0000&l1. &r&fNo spam of messages, characters, emoji, or commands."
+      - "&#ff0000&l2. &r&fNo discussions regarding past or present punishments."
+      - "&#ff0000&l3. &r&fNo discussions regarding religion, politics, or other sensitive topics."
+      - "&#ff0000&l4. &r&fNo discussions involving NSFW or triggering topics."
+      - "&#ff0000&l5. &r&fNo usage of non-English languages in chat. This is to help staff moderate appropriately."
+      - "&#ff0000&l6. &r&fNo usage of excessive toxicity towards others."
+      - "&#ff0000&l7. &r&fNo usage of discriminatory language or slurs."
+      - "&#ff0000&l8. &r&fNo usage of excessive caps or swearing."
+      - "&#ff0000&l9. &r&fNo advertising. (Unless explicitly permitted by a high-ranking staff member.)"
+      - "&#ff0000&l10. &r&fNo impersonation of any staff members."
+      - "&#ff0000&l11. &r&fNo harassment or bullying of any kind."
+      - "&#ff0000&l12. &r&fNo DDoS, Doxxing, or Swatting. This includes threats and discussions of such actions."
+  middle-icon:
+    material: GOLDEN_NUGGET # Material of the item.
+    slot: 13 # Slot number -1 as the first slot is always 0 (0-53).
+    glowing: true # Whether the item should be glowing.
+    title: "&#ff00ff&l&nRULES" # The display name of the item.
+    lore:
+      - "&7These are the rules of the server."
+      - "&r"
+      - "&b&lWARNING&7: &c&oAttempting to stretch these rules or find loopholes in them will result in punishment."
+  gameplay-rules:
+    material: KNOWLEDGE_BOOK # Material of the item.
+    slot: 15 # Slot number -1 as the first slot is always 0 (0-53).
+    glowing: true # Whether the item should be glowing.
+    title: "&#ffa000&l&nGAMEPLAY RULES" # The display name of the item.
+    lore:
+      - "&7Applies to all areas of gameplay on this server."
+      - "&r" # Blank line
+      - "&#ff0000&l1. &r&fDo not abuse any bugs or glitches."
+      - "&#ff0000&l2. &r&fDo not use any unfair advantages or hacked clients. If you are unsure, ask a staff member."
+      - "&#ff0000&l3. &r&fDo not attempt to unfairly escape PvP."
+      - "&#ff0000&l4. &r&fDo not attempt to evade punishments."
+      - "&#ff0000&l5. &r&fDo not coerce others into breaking rules."
+      - "&#ff0000&l6. &r&fNo duping or creating lag machines. (Including discussions of such.)"
+      - "&#ff0000&l7. &r&fNo inappropriate content. Including but not limited to:"
+      - "&r     &7» &r&fBuilds."
+      - "&r     &7» &r&fItem Names."
+      - "&r     &7» &r&fUsernames. (Must follow the chat rules too!)"
+      - "&r     &7» &r&fNicknames (Must follow the chat rules too!)"
+      - "&r     &7» &r&fSkins."

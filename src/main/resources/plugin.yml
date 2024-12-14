@@ -7,9 +7,4 @@ depend:
 softdepend:
   - PlaceholderAPI
 
-commands:
-  rules:
-    description: "Open the server rules menu."
-    permission: "justrules.commands.rules"
-    aliases:
-      - rule
+commands: {}
